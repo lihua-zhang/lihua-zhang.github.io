@@ -1,0 +1,158 @@
+---
+layout: post
+title:  "GitHub Pages 教程"
+date:   2023-04-23 20:30:18 +0800
+categories: jekyll update
+---
+
+## 注册GitHub账号
+
+1. 注册GitHub
+2. 建立仓库（repository）仓库名**必须**与用户名保持一致，即`username.github.io`，这个仓库名就是以后得网址。
+3. 进入仓库。点击`Settings`，进入`Pages`，点入`Choose a Theme`，选择自己喜欢的模板。
+
+> 如果不喜欢以上模板，可以通过Jekyll生成
+
+## 搭建环境
+
+1. 安装Git，Mac系统可以不用安装。
+2. 安装Ruby
+3. 安装Bundler
+4. 安装Jekyll
+5. 导航到保存博客的文件夹
+
+## 搭建环境
+
+1. 导航到站点发布的来源
+
+```shell
+#进入本地目录
+cd /Users/hazel/Documents/GitHub/lihua-zhang.github.io
+```
+
+2. 运行 `bundle install`。
+
+```shell
+#如果安装特别慢就先运行这一行
+bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+#安装bundle
+bundle install
+```
+
+
+
+```SHELL
+# 改用Ruby国内源
+# 移除官方镜像源.
+gem sources --remove https://rubygems.org/
+# 添加国内源ruby-china。
+gem sources -a https://gems.ruby-china.com/
+# 确保只有一个镜像源。
+gem sources -l
+```
+
+
+
+3. 在本地运行您的 Jekyll 站点。
+
+```shell
+$ bundle exec jekyll serve
+> Configuration file: /Users/octocat/my-site/_config.yml
+>            Source: /Users/octocat/my-site
+>       Destination: /Users/octocat/my-site/_site
+> Incremental build: disabled. Enable with --incremental
+>      Generating...
+>                    done in 0.309 seconds.
+> Auto-regeneration: enabled for '/Users/octocat/my-site'
+> Configuration file: /Users/octocat/my-site/_config.yml
+>    Server address: http://127.0.0.1:4000/
+>  Server running... press ctrl-c to stop.
+```
+
+4. jekyll的中文网站
+
+http://jekyllcn.com/
+
+
+
+```shell
+mkdir docs
+```
+
+##  安装Git
+
+1. 安装homebrew 
+2. 使用homebrew安装git
+
+```shell
+#安装最新版git
+$brew install git
+#查看homebrew已安装内容
+$brew list
+```
+
+![image-20230422120459120](/Users/hazel/Library/Application Support/typora-user-images/image-20230422120459120.png)
+
+![image-20230422145639355](/Users/hazel/Library/Application Support/typora-user-images/image-20230422145639355.png)
+
+![image-20230422121548815](/Users/hazel/Library/Application Support/typora-user-images/image-20230422121548815.png)
+
+## 安装Ruby
+
+```shell
+ 安装 ruby 3.1.2
+$ rbenv install 3.1.2
+# 查看已安装的 ruby 版本
+$ rbenv versions
+# 设置全局的 ruby版本
+$ rbenv global 3.1.2
+```
+
+
+
+## Jekyll & Bundler
+
+```shell
+# 使用 gem 安装 jekyll 和 bundler
+$ gem install jekyll bundler
+```
+
+
+
+`gem install jekyll bundler --user-install`
+
+报错：
+
+`ERROR:  While executing gem ... (Errno::EACCES)
+    Permission denied @ rb_sysopen - /Users/hazel/.gem/ruby/2.6.0/gems/jekyll-4.3.2/.rubocop.yml`
+
+
+
+`sudo gem install jekyll`
+
+
+
+![image-20230422130812438](/Users/hazel/Library/Application Support/typora-user-images/image-20230422130812438.png)
+
+
+
+![image-20230422140030542](/Users/hazel/Library/Application Support/typora-user-images/image-20230422140030542.png)
+
+
+
+
+
+![image-20230422142406091](/Users/hazel/Library/Application Support/typora-user-images/image-20230422142406091.png)
+
+![image-20230422142449346](/Users/hazel/Library/Application Support/typora-user-images/image-20230422142449346.png)
+
+![image-20230422142506704](/Users/hazel/Library/Application Support/typora-user-images/image-20230422142506704.png)
+
+##  参考资料
+
+1. **jekyll中文网站**  [https://jekyllcn.com/](https://jekyllcn.com/ "https://jekyllcn.com/") 
+2. **mac系统的安装指南**  [https://jekyllrb.com/docs/installation/macos/](https://jekyllrb.com/docs/installation/macos/ "https://jekyllrb.com/docs/installation/macos/")
+
+3. https://www.sxbfzl.com/b/5266.html
+4. https://www.moncefbelyamani.com/which-shell-am-i-using-how-can-i-switch/
+
