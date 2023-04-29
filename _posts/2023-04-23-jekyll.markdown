@@ -5,6 +5,8 @@ date:   2023-04-23 20:30:18 +0800
 categories: jekyll update
 ---
 
+![githubpages]({{site.url}}/assets/githubpages.png)
+
 ## 注册GitHub账号
 
 ### 注册GitHub
