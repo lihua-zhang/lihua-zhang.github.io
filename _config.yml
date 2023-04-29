@@ -18,17 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hazel's Castle1
+title: Hazel's Castle
 email: lihua_zhang@foxmail.com
 description: >-
-  This is Hazel's blog1.
+  This is Hazel's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lihua-zhang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lihuazhang14
 github_username:  lihua-zhang
 
 # Build settings
-theme: Midnight
+theme: minima
 plugins:
   - jekyll-feed
 
