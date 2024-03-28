@@ -22,7 +22,7 @@ title: Hazel’s Castle
 email: lihua_zhang@foxmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   这是一个学习和分享的个人网站.
-baseurl: "https://lihua-zhang.github.io1/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhuanlan.zhihu.com/p/625269657/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lihua_zhang
 github_username:  lihua_zhang
