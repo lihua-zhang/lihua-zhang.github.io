@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "WorkSpace"
+date:   2024-03-29 08:30:00 +0800
+categories: jekyll update
+---
+
+
+
+> 会议主题：数字化运营工具讲解
+> 会议时间：2024/03/29 14:00-15:30 (GMT+08:00) 中国标准时间 - 北京
+>
+> 点击链接入会，或添加至会议列表：
+> https://meeting.tencent.com/dm/hIvUcB54cC6M
+>
+> #腾讯会议：558-772-361
+
+
+
+- 奶粉的管理员账号yili，能否换一下
+
+- 开始对接cxp平台上线
+
+
+
+
+
+## 工作台
+
+### 员工管理
+
+新的人员入职，会在emp中增加账号，之后要求新入职专员下载企微，进入专员的组别，然后实时同步到员工管理
+
+
+
+### 账号管理
+
+
+
+## 获客
+
+### 渠道活码
+
+<img src="../assets/work.png" alt="work" style="zoom:100%;" />
+
+![githubpages]({{site.url}}/assets/work.png)
+
+
+
+
+

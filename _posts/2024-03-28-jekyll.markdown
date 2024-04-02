@@ -5,7 +5,7 @@ date:   2024-03-28 20:30:18 +0800
 categories: jekyll update
 ---
 
-![githubpages]({{site.url}}/assets/githubpages.png)
+![githubpages]({{site.url}}/assets/githubpages.jpeg)
 
 ## 注册GitHub账号
 
